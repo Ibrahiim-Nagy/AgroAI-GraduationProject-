@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "120929663482",
+    "firebase_url": "https://agro-robot-default-rtdb.firebaseio.com",
+    "project_id": "agro-robot",
+    "storage_bucket": "agro-robot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120929663482:android:e2d7f6d351893924fb8c43",
+        "android_client_info": {
+          "package_name": "com.example.agroai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120929663482-cf0gri2h932o9ua35jvu6jal79hs4oc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbHPXAd72JlV3FeW_Wbgp79mQ_3wUuadA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120929663482-07gljo1jlhsuf5s9h4ieusdilt2sg01h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120929663482:android:8b887b7d260aa7f6fb8c43",
+        "android_client_info": {
+          "package_name": "com.example.robot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120929663482-cf0gri2h932o9ua35jvu6jal79hs4oc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbHPXAd72JlV3FeW_Wbgp79mQ_3wUuadA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120929663482-07gljo1jlhsuf5s9h4ieusdilt2sg01h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

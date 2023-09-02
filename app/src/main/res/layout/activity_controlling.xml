@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/soil"
+    tools:context=".Controlling">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Start"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/on" />
+
+
+    <EditText
+        android:id="@+id/variableValueEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="10S-20S-30S"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/off"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="send time"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/variableValueEditText"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/getdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sendButton"
+        android:layout_centerHorizontal="true"
+        android:text="Get Data"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/viewdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getdata"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewdata"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+</RelativeLayout>
