@@ -1,4 +1,4 @@
-# GraduationProject
+# AgroAI-GraduationProject-
 This project provides a comprehensive overview that utilizes a convergence of advanced technologies, including IoT, embedded systems, computer vision, 
 deep learning, robotics, cloud computing, and solar cell technology, to revolutionize plant irrigation in agriculture. 
 The project introduces a Wi-Fi-enabled communication module that connects an administrative user to an agricultural robot through a user-friendly mobile application, 
